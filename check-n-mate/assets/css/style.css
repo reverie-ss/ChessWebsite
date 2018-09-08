@@ -68,6 +68,10 @@ section { overflow: hidden; }*/
     Spacing & Alignment 
 ------------------------------------------*/
 
+.roomy-100-nobottom {
+    padding-top: 100px;
+}
+
 .roomy-100 {
     padding-top: 100px;
     padding-bottom: 100px;
