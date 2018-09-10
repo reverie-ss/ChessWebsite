@@ -173,6 +173,31 @@ jQuery(document).ready(function ($) {
     });
 
 
+    $("#faq_main_content2").collapse({
+        accordion: true,
+        open: function () {
+            this.addClass("open");
+            this.css({height: this.children().outerHeight()});
+        },
+        close: function () {
+            this.css({height: "0px"});
+            this.removeClass("open");
+        }
+    });
+
+
+
+    $("#faq_main_content3").collapse({
+        accordion: true,
+        open: function () {
+            this.addClass("open");
+            this.css({height: this.children().outerHeight()});
+        },
+        close: function () {
+            this.css({height: "0px"});
+            this.removeClass("open");
+        }
+    });
 
 
 
